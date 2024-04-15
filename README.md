@@ -2,9 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
  
-# Create Projecgt
+# Create and git push code
 npx create-react-app reactjsnew
-git remote set-url origin yourrepoURL
+cd reactjsnew
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cfphpflex/reactjsnew.git
+git push -u origin main
+
+
 ## cd reactjsnew
 npm start
 
