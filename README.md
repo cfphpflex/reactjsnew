@@ -13,6 +13,12 @@ git remote add origin https://github.com/cfphpflex/reactjsnew.git
 git push -u origin main
 
 
+echo $HOST
+
+unset HOST
+
+## Install
+yarn install
 ## cd reactjsnew
 npm start
 
